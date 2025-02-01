@@ -1,0 +1,453 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    padding-top: 60px;
+
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-image1 {
+    height: 50px;
+    position: relative ;
+    padding-right: 140px;
+    padding-left: 7%;
+}
+.home-image2 {
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 180px;
+    position: relative ;
+    padding-left: 7%;
+}
+.home-container1 {
+    width: 100%;
+    height: 144px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+.home-container1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 50%;
+}
+
+.home-container1 h6{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.home-container3 {
+    width: 100%;
+    height: 807px;
+    display: flex;
+    align-items: flex-start;
+    border-color: #787878;
+}
+.home-container4 {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.home-container5 {
+    width: 167px;
+    height: 809px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.home-container6 {
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    justify-content: center;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+
+
+}
+#radius{
+    position: relative;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.home-container7 {
+    width: 167px;
+    height: 809px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.home-container8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    margin-top: 20px;
+    border-top: 0.3px solid grey;
+}
+
+.home-container9 {
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 28px
+}
+
+.Copyrightclass{
+    position: relative;
+    color: white;
+}
+
+
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.underpic{
+    padding-top: 10px;
+    font-size: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+.home-containertop{
+    color: white;
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 80%;
+    background-color: #172035;
+}
+
+
+.glow:hover{
+    font-size: 110%;
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff,
+    0 0 160px #fff,
+    0 0 200px #fff,
+    0 0 220px #fff;
+
+}
+
+.flex-container {
+    border-bottom: 0.3px solid grey;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    font-family: 'fantasy','Copperplate','sans-serif';
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.flex-container > a {
+    background-color:  rgba(0,0,0,0);
+    color: #f9f9f9;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+#hexon{
+    margin-left: 5%;
+}
+
+.home-button{
+    color: white;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 150%;
+    margin-top: 20%;
+    background-color: #172035;
+    margin-left: 31%;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.insidediv{
+    margin-left: 150px;
+}
+
+
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    transition: 0.09s;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    transform: scale(1%);
+}
+
+.topic:hover ~ .cursor{
+    transform: scale(6);
+
+}
+.features{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.faqs{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 150px;
+}
+.topic{
+    padding-right: 50%;
+    font-size: 30px;
+    padding-top: 35px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 15px;
+    color: #b0b0b0;
+    padding-right: 45.5%;
+    padding-bottom: 20px;
+}
+.meals{
+    position: relative;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 455px;
+    display: flex;
+    justify-content: center;
+
+}
+.smalltopic{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#smalldivs{
+    width: 300px;
+    background-color: #202020;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.meal1img{
+    width: 280px;
+    padding-left: 72%;
+    padding-top: 5%;
+}
+.table{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.mealstext{
+    font-size: 15px;
+    color: #b0b0b0;
+    padding-right: 45.5%;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.fourcontent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.fourcontent:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#radius img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
+}
+.widget{
+    height: 200px;
+}
+
+.faq-item {
+    background-color: #2e2e2e;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.question {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    overflow: hidden;
+    color: #b0b0b0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.faq-item:hover{
+    background-color: #424242;
+}
+.faq-item.clicked {
+    background-color: #424242;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    padding-right: 20px;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.5s ease-out;
+}
+.faq-item.clicked .icon {
+    transform: rotate(0.25turn);
+}
+.main{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h2{
+    position: relative;
+    font-size: 12vw;
+    color: red;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 90%;
+    font-size: 12vw;
+    -webkit-text-stroke: 0.3vw black;
+    color: white;
+    overflow: hidden;
+    animation: animate 7s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,10%,100%{
+        width: 0;
+    }
+    50%,90%{
+        width: 100%;
+    }
+}
+.champs{
+    background-color: #2e2e2e;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border-radius: 25px;
+}
+.champs td {
+    padding-top: 30px;
+}
+
+.image-with-shadow {
+    box-shadow: 10px 10px 5px 5px #000000; /* Adjust values as needed */
+}
+
+.videos{
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.videos td {
+    padding-top: 30px;
+}
+
+.meals:hover{
+    background-color: #424242;
+    cursor: pointer;
+}

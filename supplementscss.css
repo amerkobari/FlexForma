@@ -1,0 +1,180 @@
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.maintext {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'fantasy','Copperplate','sans-serif';
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+    background: linear-gradient(45deg, white,white );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulse 2s infinite;
+    width: 50%;
+    padding-left: 25%;
+    padding-bottom: 5%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+
+
+
+
+}
+table{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.tablesup td{
+}
+.tablesup tr{
+     display: flex;
+
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered-element{
+
+
+}
+.immage{
+    width:500px;
+    height:400px;
+    padding-top: 50px;
+}
+.bord{
+    border-radius: 25px;
+    background-color: #2e2e2e;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+.container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+}
+
+.container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.whey,
+.creatine,
+.BCAA,
+.multivitamin,
+.preworkout,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back > h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+
+}
+.back > p {
+    font-family: "Times New Roman", Times, serif;;
+    font-size: 18px;
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+.whey {
+    background-image: url(img/Wheyprotein.jpg);
+    background-size: cover;
+}
+
+.creatine {
+    background-image: url(img/creatine.jpg);
+    background-size: cover;
+
+}
+
+.BCAA{
+    background-image: url(img/BCAA.png);
+    background-size: cover;
+
+}
+.multivitamin{
+    background-image: url(img/MultiVitamins.png);
+    background-size: cover;
+}
+.preworkout{
+    background-image: url(img/preworkout.png);
+    background-size: cover;
+}
+
+.back {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+table{
+    display: flex
+}

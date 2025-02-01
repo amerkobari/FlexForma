@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loading Screen Example</title>
+</head>
+<body>
+<div class="loading-screen" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <p>Loading...</p>
+</div>
+
+<!-- Your page content goes here -->
+
+
+</body>
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Hide the loading screen when the page is fully loaded
+        window.addEventListener("load", function () {
+            document.getElementById("loadingScreen").style.display = "none";
+        });
+    });
+
+</script>
+
+</html>
